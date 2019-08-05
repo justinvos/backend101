@@ -1,0 +1,56 @@
+* {
+  font-family: 'Assistant', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+  color: white;
+}
+
+section {
+  margin: 0 auto;
+  width: 900px;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 32px 0;
+}
+
+.form {
+  display: flex;
+  width: 100%;
+}
+
+input[type='text'] {
+  border: none;
+  border-bottom: white solid 1px;
+  background-color: transparent;
+  color: white;
+  font-size: 36px;
+  padding: 16px 0;
+  flex-grow: 1;
+}
+
+button {
+  border: white solid 2px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-size: 32px;
+  padding: 0 32px;
+  text-transform: uppercase;
+  margin-left: 32px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+.msg {
+  margin: 32px 0;
+  font-size: 32px;
+}
